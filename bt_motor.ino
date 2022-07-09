@@ -64,7 +64,7 @@ void setup(){
       digitalWrite(IN7Pin, HIGH);
       digitalWrite(IN8Pin, HIGH);    
     }
-  void right(){
+  void right(){ //우회전
       digitalWrite(IN1Pin, HIGH);
       digitalWrite(IN2Pin, HIGH);
       digitalWrite(IN3Pin, LOW);
@@ -76,7 +76,7 @@ void setup(){
       digitalWrite(IN7Pin, HIGH);
       digitalWrite(IN8Pin, HIGH);       
     }
-  void left(){
+  void left(){ //좌회전
       digitalWrite(IN1Pin, LOW);
       digitalWrite(IN2Pin, HIGH);
       digitalWrite(IN3Pin, HIGH);
